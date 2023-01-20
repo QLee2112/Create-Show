@@ -29,3 +29,11 @@ export const onShowMarineSuccess = (marine) => {
 
     showMarineContainer.appendChild(div)
 }
+
+export const onUpdateMarineSuccess = () => {
+    messageContainer.innerText = 'Update was a success'
+}
+
+export const onDeleteMarineSuccess = () => {
+    messageContainer.innerText = 'BANG, that marine is de ... gone'
+}
